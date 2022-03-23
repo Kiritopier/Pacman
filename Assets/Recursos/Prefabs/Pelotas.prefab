@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6432262603601594011}
   - component: {fileID: 418393944284409749}
   - component: {fileID: 2295830429600643042}
+  - component: {fileID: 5776174411655896716}
   m_Layer: 8
   m_Name: Pelotas
   m_TagString: Untagged
@@ -109,3 +110,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.25}
   m_EdgeRadius: 0
+--- !u!114 &5776174411655896716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8960897507030957522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0e35660ed188544b626bc9c5ac1720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 10

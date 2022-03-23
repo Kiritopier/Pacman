@@ -6087,7 +6087,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 392056332}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3f6594b5e6fc45c42bad2fa947a59561, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8791,14 +8791,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519817808}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8bd641d2a2aba42a0bec6d0c33d676, type: 3}
+  m_Script: {fileID: 11500000, guid: b68fd594f04c60540952c5cbe46f73fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fantasmaas: []
-  Pacman: {fileID: 1635694683}
-  pelotas: {fileID: 406102016}
+  fantasmas: []
+  Pacman: {fileID: 1635694688}
+  pelota: {fileID: 406102016}
 --- !u!1 &1149282776
 GameObject:
   m_ObjectHideFlags: 0
@@ -9631,8 +9631,8 @@ GameObject:
   - component: {fileID: 1635694686}
   - component: {fileID: 1635694685}
   - component: {fileID: 1635694684}
-  - component: {fileID: 1635694683}
   - component: {fileID: 1635694688}
+  - component: {fileID: 1635694683}
   m_Layer: 6
   m_Name: Pacman
   m_TagString: Untagged
@@ -9649,9 +9649,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635694682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ee1ec6f4475355419325933e7e2b1fc, type: 3}
+  m_Script: {fileID: 11500000, guid: fa45d35d44333544d82bad98fde09af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
+  dirX: 0
+  dirY: 0
+  spr: {fileID: 1635694686}
 --- !u!58 &1635694684
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9763,10 +9767,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635694682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8242b82b858e8f54396c464c30a7d3e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fa7ab85695a97d41acdbf659a18fac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  dirX: 0
-  dirY: 0
-  spr: {fileID: 1635694686}
